@@ -24,3 +24,15 @@ body {
   font-weight: 400;
   opacity: 0.5;
 }
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.changeRadio {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #f2f6fc;
+}
