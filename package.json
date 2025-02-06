@@ -10,10 +10,12 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
+    "@types/react-data-grid": "^4.0.12",
     "antd": "^5.23.4",
     "lodash": "^4.17.21",
     "mathjs": "^14.2.1",
     "react": "^19.0.0",
+    "react-data-grid": "7.0.0-beta.47",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
