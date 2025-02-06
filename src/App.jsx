@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Radio } from 'antd';  
-// import DataList from './components/DataList';
+import DataList from './components/DataList';
 // import CanvasDemo from './components/CanvasDemo';
 import './App.css'; 
 
@@ -19,6 +19,7 @@ function App() {
           onChange={handleRadioChange}
           style={{ 
             margin: '0 auto', 
+            padding: '20px 0',
             display: 'flex', 
             justifyContent: 'center' 
           }}
@@ -27,7 +28,7 @@ function App() {
           <Radio value={2}>canvas绘制示例</Radio>
         </Radio.Group>
       </div>
-
+      <DataList />
       {/* {radio === 1 && <DataList />}
       {radio === 2 && <CanvasDemo />} */}
     </div>
