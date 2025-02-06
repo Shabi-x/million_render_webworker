@@ -188,13 +188,13 @@ const DataList = () => {
           headerRowHeight={40}
           style={{ height: '100%' }}
           enableVirtualization={true}
-          footer={
+          footer={() => (
             <div className="custom-footer">
               {footerData.map((data, index) => (
                 <div key={index}>{data.join(', ')}</div>
               ))}
             </div>
-          }
+          )}
         />
       </div>
     </div>

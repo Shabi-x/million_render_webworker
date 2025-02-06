@@ -51,3 +51,12 @@
   color: #409eff;
   font-weight: bold;
 }
+
+.custom-footer {
+    background: #f2f6fc;
+    padding: 10px;
+    color: #409eff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
