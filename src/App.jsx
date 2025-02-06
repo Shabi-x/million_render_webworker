@@ -18,19 +18,16 @@ function App() {
           value={radio} 
           onChange={handleRadioChange}
           style={{ 
-            margin: '0 auto', 
-            padding: '20px 0',
             display: 'flex', 
-            justifyContent: 'center' 
+            justifyContent: 'center' ,
+            alignItems: 'center'
           }}
         >
           <Radio value={1}>表格计算示例</Radio>
-          <Radio value={2}>canvas绘制示例</Radio>
         </Radio.Group>
       </div>
-      <DataList />
-      {/* {radio === 1 && <DataList />}
-      {radio === 2 && <CanvasDemo />} */}
+
+      {radio === 1 && <DataList />}
     </div>
   );
 }

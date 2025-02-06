@@ -1,62 +1,86 @@
-.data-list {
-  width: 100vw;
-  height: calc(100vh - 60px);
-  display: flex;
-}
-
-.calc-list {
-  width: 130px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  background: #f2f6fc;
-}
-
 .calc-list .calc-tip {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
-  background: #375ee7;
+  background: #1890ff;
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   color: #fff;
+  letter-spacing: 1px;
 }
 
 .calc-list .ant-checkbox-group {
-  padding: 10px 10px 0;
+  padding: 20px 15px;
 }
 
 .calc-list .ant-checkbox-group-item {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  display: block;
 }
 
 .calc-list .ant-select {
-  width: 110px;
-  margin-left: 10px;
+  width: 150px;
+  margin: 0 15px;
 }
 
 .calc-list .ant-select .ant-select-selector {
-  height: 28px;
-  line-height: 28px;
-  font-size: 12px;
+  height: 32px;
+  line-height: 32px;
+}
+.data-list {
+  width: 100vw;
+  height: calc(100vh - 30px); ;
+  display: flex;
+  padding: 0px 0;
+  box-sizing: border-box;
+  background-color: #f0f2f5;
+}
+
+.calc-list {
+  width: 180px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+  z-index: 10;
 }
 
 .table-list {
   flex: 1;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   overflow: hidden;
 }
 
-.table-list .ant-table-footer {
-  background: #f2f6fc;
-  color: #409eff;
-  font-weight: bold;
+.rdg {
+  flex-grow: 1;
+  height: auto !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.custom-footer {
-    background: #f2f6fc;
-    padding: 10px;
-    color: #409eff;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
+.statistics-summary {
+    background: linear-gradient(135deg, #e6f2ff 0%, #c8deff 100%);
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    min-height: 60px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid rgba(87, 77, 77, 0.1);
+    transition: all 0.3s ease;
   }
+  
+
+.stat-item {
+  color: #333;
+  margin-bottom: 8px;
+  padding: 5px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.stat-item:last-child {
+  border-bottom: none;
+}
