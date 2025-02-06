@@ -1,29 +1,6 @@
-# Rsbuild project
+# million_render_webworker
 
-## Setup
+> 用于计算大数据的前端渲染，使用 WebWorker 进行计算优化运算的demo
 
-Install the dependencies:
 
-```bash
-pnpm install
-```
-
-## Get started
-
-Start the dev server:
-
-```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
+## RsBuild  React-Data-Grid
